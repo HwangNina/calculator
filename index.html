@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>Nina's Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>The dumbest Calculator</h1>
+    </header>
+    <section>
+        <input id="number_input" type="number">
+    </section>
+    <section id="operator_btn">
+        <div>
+            <button type="button" id="add_btn">+</button>
+            <button type="button" id="subtract_btn">-</button>
+            <button type="button" id="multiply_btn">*</button>
+            <button type="button" id="divide_btn">/</button>
+        </div>
+    </section>
+    <section id="calc_result">
+        <h2 id="calculation_process">0</h2>
+        <h2>Result: <span id="calculation_result">0</span></h2>
+    </section>
+    <script src="scripts/vendor.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

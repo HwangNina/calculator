@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(223, 172, 188);
+    text-align: center;
+}
+
+header {
+    margin: 80px 0px;
+    font-size: 60px;
+}
+
+#number_input {
+    height: 100px;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#operator_btn {
+    margin: 50px 0px;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+}
+
+#calc_result {
+    margin: 100px 20%;
+    background-color: white;
+    padding: 50px 100px;
+    font-size: 20px;
+}
